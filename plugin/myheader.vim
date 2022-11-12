@@ -144,6 +144,6 @@ function! s:myheader()
 endfunction
 
 " Bind command and shortcut
-command! myheader call s:myheader ()
-map <F2> :myheader<CR>
+command! Myheader call s:myheader ()
+map <F2> :Myheader<CR>
 autocmd BufWritePre * call s:update ()
